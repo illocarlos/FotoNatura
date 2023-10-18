@@ -27,7 +27,7 @@ class PhotoService {
     }
 
     newPhoto(photoData) {
-        return this.api.post('/newphoto', photoData);
+        return this.api.post('/newPhoto', photoData);
     }
 
     addPhotoToUser(idUser, idPhoto) {

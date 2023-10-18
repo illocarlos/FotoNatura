@@ -1,6 +1,6 @@
 import Foother from "./components/Foother/Foother"
 import NavBar from "./components/NavBar/NavBar"
-import AppRoutes from './routes/AppRoutes'
+import AppRoutes from './routes/AppRoutes.jsx'
 
 
 function App() {
