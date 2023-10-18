@@ -1,3 +1,13 @@
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+
+.rowJC {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

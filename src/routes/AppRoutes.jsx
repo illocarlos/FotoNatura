@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import PrivateRoute from './PrivateRoutes'
+import IndexPage from '../pages/Index/IndexPage'
 
 
 function AppRoutes() {
@@ -8,7 +9,7 @@ function AppRoutes() {
 
         <Routes>
 
-            <Route path={"/"} element={<h1>el index</h1>} />
+            <Route path={"/"} element={<IndexPage />} />
             < Route path={"/auth/signup"} element={<p>el registroooo</p>} />
             < Route path={"/auth/login"} element={<p>el logeooo</p>} />
 

@@ -1,8 +1,8 @@
 const Foother = () => {
 
     return (
-        <div className="Foother">
-            <h1>FOOOTHER</h1>
+        <div className="rowJC">
+            <h1>web creada por CAP</h1>
         </div>
     )
 }
