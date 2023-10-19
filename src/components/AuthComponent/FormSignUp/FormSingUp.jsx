@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import authService from "../../../services/auth.service";
+import Loader from "../../Loader/Loader";
 
 const FormSignUp = () => {
     const [isLoading, setIsLoading] = useState(false);
@@ -50,7 +51,9 @@ const FormSignUp = () => {
                     onSubmit={handleFormSubmit}>
                     <input
                         placeholder="Name"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                         transition ease-in-out duration-150"
                         type="text"
                         name="name"
                         value={signupData.name}
@@ -58,7 +61,9 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="LastName"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500
+                          transition ease-in-out duration-150"
                         type="text"
                         name="lastName"
                         value={signupData.lastName}
@@ -66,7 +71,9 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="Email"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                         transition ease-in-out duration-150"
                         type="email"
                         name="email"
                         value={signupData.email}
@@ -74,7 +81,9 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="Password"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500
+                          transition ease-in-out duration-150"
                         type="password"
                         name="password"
                         value={signupData.password}
@@ -82,7 +91,9 @@ const FormSignUp = () => {
                     />
                     <input
 
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                         transition ease-in-out duration-150"
                         type="file"
                         name="avatar"
                         value={signupData.avatar}
@@ -92,17 +103,24 @@ const FormSignUp = () => {
                     />
                     <textarea
                         placeholder="About"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150"
+                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                         transition ease-in-out duration-150"
                         name="about"
                         value={signupData.about}
                         onChange={handleInputChange}
                     />
 
                     <button
-                        className="cursor-pointer transition-all w-full bg-gray-700 text-white px-6 py-2 rounded-lg border-green-400 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-green-300 shadow-green-300 active:shadow-none"
+                        className="cursor-pointer transition-all w-full
+                         bg-gray-700 text-white px-6 py-2 rounded-lg border-green-400
+                          border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] 
+                          hover:border-b-[6px] active:border-b-[2px] active:brightness-90 
+                          active:translate-y-[2px] hover:shadow-xl
+                           hover:shadow-green-300 shadow-green-300 active:shadow-none"
                         type="submit"
                     >
-                        Apply
+                        Register
                     </button>
                 </form>
                 {isLoading && <Loader />}

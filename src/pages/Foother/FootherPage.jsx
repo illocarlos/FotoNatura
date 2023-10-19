@@ -2,9 +2,9 @@ import Foother from "../../components/Foother/Foother"
 
 const FootherPage = () => {
     return (
-        <section className='fixed w-screen h-10'>
+        <div className='fixed'>
             <Foother />
-        </section>
+        </div>
     )
 }
 export default FootherPage

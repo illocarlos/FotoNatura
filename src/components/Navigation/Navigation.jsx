@@ -1,15 +1,19 @@
+import { Link } from 'react-router-dom'
 import { fnLogo } from '../../assets/images/index'
 
 
 const Navigation = () => {
 
     return (
-        <div >
-            <button className="w-20 " >
-                <img className="w-auto h-auto" src={fnLogo} alt="" />
-            </button>
+
+        <div className='w-20' >
+            <Link to={'/'} className="" >
+                <img className="" src={fnLogo} alt="" />
+            </Link>
 
         </div >
+
+
     )
 }
 export default Navigation

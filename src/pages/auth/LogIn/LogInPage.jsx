@@ -8,7 +8,10 @@ const LogInPage = () => {
             <FormLogIn />
             <div className="w-full text-center">
                 <p>don't you have an account?</p>
-                <Link className='text-purple-800 '
+
+
+
+                <Link className='text-purple-800 w-7 h-7 '
                     to={'/auth/signup'}>
                     Sign up</Link>
             </div>
