@@ -2,7 +2,7 @@ import Foother from "../../components/Foother/Foother"
 
 const FootherPage = () => {
     return (
-        <section className='h-10 w-screen absolute top-full '>
+        <section className='fixed w-screen h-10'>
             <Foother />
         </section>
     )

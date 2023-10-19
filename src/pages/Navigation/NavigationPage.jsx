@@ -2,7 +2,7 @@ import Navigation from "../../components/Navigation/Navigation"
 
 const NavigationPage = () => {
     return (
-        <div className="w-screen h-10 absolute ">
+        <div className="hidden sm:block sm:absolute m">
             <Navigation />
         </div>
     )

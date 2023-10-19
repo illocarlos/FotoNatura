@@ -24,7 +24,7 @@ class AuthService {
         return this.api.post('/signup', userData)
     }
     login(userData) {
-        return this.api.post('/login', userData)
+        return this.api.post('/logIn', userData)
     }
     verify(authToken) {
         return this.api.get('/verify',

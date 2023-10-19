@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className=' top-0 left-0 w-screen h-screen bg-gradient-to-tr
-     from-green-950 via-green-700 to-gray-500 -z-10'>
+     from-lime-950 via-lime-500 to-yellow-200 -z-20'>
       <NavigationPage />
       <AppRoutes />
       <FootherPage />

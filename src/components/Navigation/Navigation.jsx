@@ -1,4 +1,4 @@
-
+import { fnLogo } from '../../assets/images/index'
 
 
 const Navigation = () => {
@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div >
             <button className="w-20 " >
-                <img className="w-auto h-auto" src="../../fnLogo.png" alt="" />
+                <img className="w-auto h-auto" src={fnLogo} alt="" />
             </button>
 
         </div >
