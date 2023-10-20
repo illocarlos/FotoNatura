@@ -4,7 +4,6 @@ const IndexPage = () => {
         <section className="rowJC h-screen 
             lg:hidden
              xl:hidden
-             
              ">
             <div>
                 <LogInPage />

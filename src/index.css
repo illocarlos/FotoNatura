@@ -6,6 +6,11 @@
     @apply flex flex-row flex-nowrap justify-center items-center;
 }
 
+
 .TitleFN {
     @apply font-neon bg-gradient-to-r from-emerald-900 via-teal-700 to-indigo-600 text-transparent bg-clip-text no-underline;
+}
+
+.rowJB {
+    @apply flex flex-row flex-nowrap justify-between items-center;
 }

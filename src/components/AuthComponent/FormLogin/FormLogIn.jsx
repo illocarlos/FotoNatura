@@ -3,10 +3,6 @@ import { useNavigate } from "react-router-dom"
 import authService from "../../../services/auth.service"
 import { AuthContext } from "../../../contexts/auth.context"
 
-
-
-
-
 const FormLogIn = () => {
 
     const [errors, setErrors] = useState([])

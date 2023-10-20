@@ -51,8 +51,8 @@ const FormSignUp = () => {
                     onSubmit={handleFormSubmit}>
                     <input
                         placeholder="Name"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                        className="bg-white text-black border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white focus:outline-none focus:ring-1 
                          transition ease-in-out duration-150"
                         type="text"
                         name="name"
@@ -61,8 +61,8 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="LastName"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500
+                        className="bg-white text-black border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white  focus:outline-none focus:ring-1 
                           transition ease-in-out duration-150"
                         type="text"
                         name="lastName"
@@ -71,8 +71,8 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="Email"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                        className="bg-white text-black border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white  focus:outline-none focus:ring-1  
                          transition ease-in-out duration-150"
                         type="email"
                         name="email"
@@ -81,9 +81,9 @@ const FormSignUp = () => {
                     />
                     <input
                         placeholder="Password"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500
-                          transition ease-in-out duration-150"
+                        className="bg-white text-black border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white  focus:outline-none focus:ring-1  
+                         transition ease-in-out duration-150"
                         type="password"
                         name="password"
                         value={signupData.password}
@@ -91,8 +91,8 @@ const FormSignUp = () => {
                     />
                     <input
 
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                        className="bg-white text-blackborder-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white  focus:outline-none focus:ring-1 
                          transition ease-in-out duration-150"
                         type="file"
                         name="avatar"
@@ -103,8 +103,8 @@ const FormSignUp = () => {
                     />
                     <textarea
                         placeholder="About"
-                        className="bg-white text-gray-200 border-0 rounded-md p-2 mb-4
-                         focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 
+                        className="bg-white text-black border-0 rounded-md p-2 mb-4
+                         focus:bg-gray-600 focus:text-white  focus:outline-none focus:ring-1  
                          transition ease-in-out duration-150"
                         name="about"
                         value={signupData.about}
@@ -113,7 +113,7 @@ const FormSignUp = () => {
 
                     <button
                         className="cursor-pointer transition-all w-full
-                         bg-gray-700 text-white px-6 py-2 rounded-lg border-green-400
+                         bg-gray-700  text-white px-6 py-2 rounded-lg border-green-400
                           border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] 
                           hover:border-b-[6px] active:border-b-[2px] active:brightness-90 
                           active:translate-y-[2px] hover:shadow-xl
